@@ -9,8 +9,8 @@ export default function App() {
 
       <StatusBar style="auto" />
 
-      <Link href="/profile" style={{ color: "blue" }}>
-        Profile
+      <Link href="/home" style={{ color: "blue" }}>
+        Go to home
       </Link>
     </View>
   );
