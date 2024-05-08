@@ -4,6 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { images } from "../../constants";
 import FormField from "../../components/FormField";
+import CustomButton from "../../components/CustomButton";
 
 const SignIn = () => {
   const [form, setForm] = useState({
@@ -39,6 +40,8 @@ const SignIn = () => {
             handleChangeText={(event) => setForm({ ...form, password: event })}
             otherStyles="mt-7"
           />
+
+          <CustomButton />
         </View>
       </ScrollView>
     </SafeAreaView>
